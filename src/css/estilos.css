@@ -7,9 +7,12 @@ body {
   color: var(--white);
   font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
-  min-height: 100vh;
+  height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
   background-image: url('../images/bg-desktop.svg');
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Header */
@@ -94,15 +97,15 @@ footer {
   padding: 20px 80px 40px;
   display: flex;
   justify-content: flex-end;
-;
 }
 
-.social {
+.social{
   display: flex;
   gap: 15px;
+  list-style-type: none;
 }
 
-.social a {
+.social li a {
   color: var(--white);
   border: 1px solid var(--white);
   border-radius: 50%;
